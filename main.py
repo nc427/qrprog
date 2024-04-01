@@ -1,15 +1,15 @@
 import sys
-import qrcode
-from dotenv import load_dotenv
+#import qrcode
+# from dotenv import load_dotenv
 import logging.config
 from pathlib import Path
 import os
 import argparse
 from datetime import datetime
-import validators  # Import the validators package
+# Import the validators package
 
 # Load environment variables
-load_dotenv()
+#load_dotenv()
 
 # Environment Variables for Configuration
 QR_DIRECTORY = os.getenv('QR_CODE_DIR', 'qr_codes')  # Directory for saving QR code
